@@ -1,0 +1,24 @@
+# rock paper scissors spork lizard
+
+# run glpsol --model CorrEq.mod --data Q1_rockpssl.dat
+# run glpsol --model coarseCorrEq.mod --data Q1_rockpssl.dat   in cmd
+
+param m := 5;
+
+param n := 5;
+
+param a : 1  2  3  4  5 :=
+      1  -1  0  1  0  1
+      2   1 -1  0  1  0
+      3   0  1 -1  0  1
+      4   1  0  1 -1  0
+      5   0  1  0  1 -1 ;
+
+param b : 1  2  3  4  5 :=
+      1  -1  1  0  1  0
+      2   0 -1  1  0  1
+      3   1  0 -1  1  0
+      4   0  1  0 -1  1
+      5   1  0  1  0 -1 ;
+
+end;

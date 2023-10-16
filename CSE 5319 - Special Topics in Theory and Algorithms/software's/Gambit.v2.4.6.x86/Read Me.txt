@@ -1,0 +1,13 @@
+Gambit v2.4.6 x86
+-----------------
+
+How To Crack:
+
+1- Install Exceed 2006 Real ESD and dont run it!
+2- Install Gambit nt x86 2.4.6 dont run it !
+3- Copy "license.dat" into "C:\Fluent.Inc\license" folder
+4- Enjoy!
+
+
+-----------------------
+www.rahim-soft.com

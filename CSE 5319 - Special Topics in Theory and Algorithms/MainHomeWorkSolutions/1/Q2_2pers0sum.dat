@@ -1,0 +1,26 @@
+# run glpsol --model CorrEq.mod --data Q2_2per0sum.dat
+# run glpsol --model coarseCorrEq.mod --data Q2_2per0sum.dat   in cmd
+
+/* Best correlated equilibrium occurs by activating these in corrEq.mod
+
+s.t. equalize: sum{i in I, j in J} z[i,j]*a[i,j] = sum{i in I, j in J} z[i,j]*b[i,j];
+
+maximize obj: objective;
+
+*/
+
+param m := 2;
+
+param n := 2;
+
+# Player1
+param a :   1     2 :=
+      1    -4     6
+      2     6     -9;
+
+# Player2
+param b :   1     2 :=
+      1     4    -6	
+      2    -6     9;
+
+end;
