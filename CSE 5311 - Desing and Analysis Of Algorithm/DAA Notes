@@ -1,0 +1,36 @@
+
+Table of Contents
+	1. The Role of Algorithms in Computing
+	2. Get Strated
+		2.1 Insertion Sort
+		2.2 Merge Sort
+		2.3 Bubble Sort
+	3. Growth of Functions
+		3.1 Asymptotic notation
+		3.2 The iterated logarithm functions
+		3.3 Fibonacci numbers
+	4. Divide-and-Conquer
+		4.1 Recurrences  -- c
+		4.2 The maximum-subarray problem  -- c
+		4.3 Strassen’s algorithm for matrix multiplication  -- c
+		4.4 Strassen’s method  -- c
+		4.5 The substitution method for solving recurrences
+		4.6 The recursion-tree method for solving recurrences
+		4.7  The master method for solving recurrences
+	5. Probabilistic Analysis and Randomized Algorithms
+		5.1  The hiring problem   -- c
+	6. Heapsort
+		6.1 Maintaining the heap property
+		6.2 Building a heap
+		6.3 The heapsort algorithm
+		6.4 Priority queues
+	7. Quicksort
+		7.1 quicksort 
+		7.2 A randomized version of quicksort
+		
+	8. Sorting in Linear Time
+		8.1 Lower bounds for sorting
+		8.2 The decision-tree model
+		8.3 Counting sort
+		8.4 Radix sort
+		8.5 Bucket sort
